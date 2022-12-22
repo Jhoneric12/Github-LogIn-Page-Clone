@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: rgb(13, 17, 23);
+    color: rgb(201, 209, 217);
+}
+a {
+    text-decoration: none;
+    color: rgb(88, 166, 255);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(88, 166, 255);
+}
+.inputs-container, .form-footer, .links, .container-footer {
+    font-size: 0.75rem;
+}
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.github-logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.form-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(22, 27, 34);
+    border: 2px solid rgb(33, 38, 45);
+    border-radius: 5px;
+}
+.textbox {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(33, 38, 45);
+    margin-top: 5px;
+    padding: 3px 10px;
+    color: rgb(201, 209, 217);
+    background-color: rgb(13, 17, 23);
+}
+.inputs-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.label-password {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-submit {
+    margin-top: 0px;
+    width: 100%;
+    padding: 4px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(46, 159, 67);
+    border: none;
+}
+.form-footer {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgb(33, 38, 45);
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 30px;
+} 
+.btn-submit:hover {
+    opacity: 0.8;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+    padding: 0px 20px;
+    font-size: 0.625rem; 
+}
+.link-contact {
+    color: rgb(201, 209, 217);
+}
+.container-footer {
+    width: 100%;
+    text-align: center;
+    color: rgb(201, 209, 217);
+    margin-top: 100px;
+}
